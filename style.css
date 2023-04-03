@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'roboto';
+}
+img{
+    display: flex;
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 1000;
+}
+.menu{
+    word-spacing: 5vh;
+    position: absolute;
+    right: 25%;
+    top: 5%;
+}
+.logomassif{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    top: 5%;
+    left: 200px;
+}
