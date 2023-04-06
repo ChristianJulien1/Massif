@@ -3,12 +3,11 @@
     margin: 0;
     padding: 0;
 }
-html{
+body{
     font-family: 'roboto';
 }
 img{
     display: flex;
-    width: 100%;
 }
 a{
     color: white;
@@ -18,25 +17,26 @@ a{
 }
 .menu{
     position: absolute;
-    top: 5vh;
-    right: 33vh;
+    top: 6vh;
+    left: 55vh;
+    width: 100vh;
 }
 .logomassif{
     position: absolute;
     width: 15vh;
     height: 5vh;
     top: 5vh;
-    left: 40vh;
+    left: 30vh;
 }
 .stars{
     position: absolute;
     top: 35vh;
-    left: 87vh;
+    left: 60vh;
 }
 h1{
     position: absolute;
     top: 28vh;
-    left: 85vh;
+    left: 58vh;
     font-weight: 100;
     letter-spacing: 1.5vh;
     color: white;
@@ -45,152 +45,211 @@ p{
     position: absolute;
     text-align: center;
     top: 40vh;
-    left: 61vh;
+    left: 38vh;
+    width: 70vh;
     color: white;
 }
 .bienvenue{
-    position: absolute;
-    height: 70vh;
-    width: 100%;
-    background-color: white;
+    display: flex;
 }
 .bienvenue1{
     position: absolute;
-    margin: 15vh 30vh;
-    width: 20%;
-    height: 45%;
+    margin: 15vh 15vh;
+    width: 20vh;
+    height: 45vh;
 }
 h2{
     position: absolute;
     color: black;
-    top: 15vh;
-    left: 90vh;
+    top: 72vh;
+    left: 70vh;
     font-weight: 1000;
 }
 .bienvenue2{
     position: absolute;
-    color: #28abb9;
+    color: #20677c;
     text-align: left;
-    top: 25vh;
-    left: 90vh;
+    top: 82.5vh;
+    left: 70vh;
     font-weight: 500;
 }
 .ensavoirplus{
     position: absolute;
-    top: 50vh;
-    left: 90vh;
+    top: 105vh;
+    left: 70vh;
     color: #0c2f39;
     font-weight: 500;
     font-size: large;
-    width: 30vh;
-    height: 7.5vh;
+    width: 25vh;
+    height: 5vh;
 }
 .btn{
     position: absolute;
-    top: 2.5vh;
-    right: 3vh;
-    width: 2.5vh;
-    height: 2.5vh;
+    top: 1vh;
+    right: 2.5vh;
+    width: 1.5vh;
+    height: 1.5vh;
 }
-.chambreetsuites{
-    position: absolute;
-    margin-top: 70vh;
-    background-color: #a8dda8;
-    width: 100%;
-    height: 70vh;
-}
-.chambres{
+.fondvertclair{
     display: flex;
-    width: 30vh;
-    height: 30vh;
-    flex-direction: row;
-    gap: 10vh;
-    margin-top: 25vh;
-    margin-left: 40vh;
-}
-.prestationprix1{
     position: absolute;
-    text-align: center;
-    top: 195vh;
-    left: 48.5vh;
-    color: black;
+    background-color: #d1f5d1;
+    top: 140vh;
+    width: 160vh;
+    height: 55vh;
+}
+.prestationprix{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    gap: 5vh;
+    top: 150vh;
+    left: 22.5vh;
 }
 .prestation1{
-    font-size: large;
-    font-weight: 1000;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 600;
 }
 .prix1{
-    color: #28abb9;
-    font-size: medium;
-}
-.prestationprix2{
-    position: absolute;
     text-align: center;
-    top: 195vh;
-    left: 87.5vh;
-    color: black;
+    color: #28abb9;
+    font-weight: 600;
 }
 .prestation2{
-    font-size: large;
-    font-weight: 1000;
-    word-spacing: 1vh;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 600;
 }
 .prix2{
-    color: #28abb9;
-    font-size: medium;
-}
-.prestationprix3{
-    position: absolute;
     text-align: center;
-    top: 195vh;
-    left: 127vh;
-    color: black;
+    color: #28abb9;
+    font-weight: 600;
 }
 .prestation3{
-    font-size: large;
-    font-weight: 1000;
-    word-spacing: 1vh;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 600;
 }
 .prix3{
-    color: #28abb9;
-    font-size: medium;
-}
-.chambresuite{
-    position: absolute;
     text-align: center;
-    top: 145vh;
-    left: 55vh;
+    color: #28abb9;
+    font-weight: 600;
 }
 .chambre{
-    width: 81vh;
+    display: flex;
+    position: absolute;
+    top: 125vh;
+    left: 65vh;
+    width: 50vh;
+    height: 10vh;
     font-weight: 1000;
-    font-size: large;
-    white-space: 5vh;
+    font-size: 150%;
 }
 .suite{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 127.5vh;
+    left: 35vh;
     margin: 5vh;
     width: 70vh;
     font-size: medium;
-    color: #0c2f39;
+    color: #20677c;
 }
 .nosservices{
+    display: flex;
     position: absolute;
-    top: 230vh;
+    top: 210vh;
     left: 30vh;
-    width: 70%;
-    height: 70vh;
-    color: black;
+    width: 50vh;
+    height: 30vh;
 }
 .services{
+    display: flex;
     position: absolute;
     color: black;
-    top: 10vh;
-    left: 50vh;
-    font-size: large;
+    text-align: center;
+    top: 200vh;
+    left: 65vh;
+    font-size: 200%;
     font-weight: 1000;
+    width: 20vh;
+    height: 10vh;
     letter-spacing: 0.1vh;
 }
-.hbergement{
+.hebergement{
+    display: flex;
     position: absolute;
-    top: 270vh;
+    top: 250vh;
+    width: 100%;
 }
+.DÉCOUVRIR{
+    position: absolute;
+    background-color: #28abb9;
+    color: white;
+    border-radius: 1vh;
+    top: 25vh;
+    left: 67.5vh;
+    width: 15vh;
+    height: 5vh;
+}
+.unhébergement{
+    position: absolute;
+    text-align: center;
+    top: 10vh;
+    left: 60vh;
+    color: white;
+    width: 30vh;
+    height: 10vh;
+    font-weight: 1000;
+    font-size: 125%;
+    letter-spacing: 0.1vh;
+}
+.dehautequalité{
+    position: absolute;
+    text-align: center;
+    top: 15vh;
+    left: 60vh;
+    color: white;
+    width: 30vh;
+    height: 10vh;
+    font-weight: 1000;
+    font-size: 200%;
+    letter-spacing: 0.1vh;
+}
+.commentaires{
+    display: flex;
+    position: absolute;
+    top: 315vh;
+    left: 22.5vh;
+    padding-bottom: 5vh;
+}
+.avis1{
+    display: flex;
+    position: absolute;
+    top: 300vh;
+    left: 55vh;
+    width: 40vh;
+    height: 5vh;
+    color: black;
+    font-weight: 1000;
+    font-size: 200%;
+    letter-spacing: 0.1vh;
+}
+.avis2{
+    display: flex;
+    position: absolute;
+    top: 310vh;
+    left: 45vh;
+    width: 60vh;
+    height: 5vh;
+    color: #20677c;
+    font-weight: 1000;
+    font-size: medium;
+    letter-spacing: 0.1vh;
+}
+
+@media screen and (max-widht:420px){}
+    
+/* border-bottom-left(right)-radius >>> pour arrondir les angles des cadres (captures d'écran) */
